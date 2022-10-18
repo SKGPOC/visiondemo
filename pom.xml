@@ -34,7 +34,13 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-http4-starter</artifactId>
+			<artifactId>camel-http-starter</artifactId>
+			<version>${camel.version}</version>
+			<!-- use the same version as your Camel core version -->
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-jsonpath-starter</artifactId>
 			<version>${camel.version}</version>
 			<!-- use the same version as your Camel core version -->
 		</dependency>
