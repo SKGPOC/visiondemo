@@ -1,0 +1,15 @@
+## common props ##
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: "default"
+  application:
+    name: "visiondemo"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
