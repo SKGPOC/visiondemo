@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<camel.version>2.25.1</camel.version>
+		<logstash.version>5.2</logstash.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -36,6 +37,11 @@
 			<artifactId>camel-http4-starter</artifactId>
 			<version>${camel.version}</version>
 			<!-- use the same version as your Camel core version -->
+		</dependency>
+		<dependency>
+			<groupId>net.logstash.logback</groupId>
+			<artifactId>logstash-logback-encoder</artifactId>
+			<version>${logstash.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
